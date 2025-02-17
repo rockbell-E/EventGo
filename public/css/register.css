@@ -1,0 +1,18 @@
+* {
+    background-color: #E3F2FD;
+}
+
+form {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #64B5F6;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2196F3;
+}
