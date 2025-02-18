@@ -1,16 +1,40 @@
 * {
     background-color: #E3F2FD;
+    font-family: ChakraPetch;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
 }
 
 form {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    border: #2196F3 solid 5px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+form input {
+    height: 25px;
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+form label {
+    font-size: 15px
 }
 
 button {
     background-color: #64B5F6;
     margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
 }
 
 button:hover {
