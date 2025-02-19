@@ -8,21 +8,24 @@
     <link rel="stylesheet" href="../public/fonts/font.css">
 </head>
 <body>
-    <form action="" method="post">
-        <h1>Formulario de registro</h1>
-        <label for="nombre">Ingrese su nombre</label>
-        <input type="text" name="nombre" id="nombre" placeholder="Rocio Belen">
-        <label for="apellido">Ingrese su apellido</label>
-        <input type="text" name="apellido" id="apellido" placeholder="Moreno Cerda">
-        <label for="rut">Ingrese su rut</label>
-        <input type="number" name="rut" id="rut" placeholder="11.111.111-1">
-        <label for="correo">Ingrese su correo</label>
-        <input type="email" name="correo" id="correo" placeholder="correo@correo@gmail.com">
-        <label for="contra">Ingrese su contraseña</label>
-        <input type="password" name="contra" id="contra">
-        <label for="contra2">Confirme su contraseña</label>
-        <input type="password" name="contra2" id="contra2">
-        <button>Registrarse</button>
+    <form class="form-content" action="" method="post">
+        <h1 class="title">Formulario de registro</h1>
+            <label class="form-label" for="nombre">Ingrese su nombre</label>
+            <input class="form-input" type="text" name="nombre" id="nombre" placeholder="Rocio Belen">
+            <label class="form-label" for="apellido">Ingrese su apellido</label>
+            <input class="form-input" type="text" name="apellido" id="apellido" placeholder="Moreno Cerda">
+            <label class="form-label" for="rut">Ingrese su rut</label>
+            <input class="form-input" type="number" name="rut" id="rut" placeholder="11.111.111-1">
+            <label class="form-label" for="correo">Ingrese su correo</label>
+            <input class="form-input" type="email" name="correo" id="correo" placeholder="correo@correo@gmail.com">
+            <label class="form-label" for="contra">Ingrese su contraseña</label>
+            <input class="form-input" type="password" name="contra" id="contra" placeholder="contraseña">
+            <label class="form-label" for="contra2">Confirme su contraseña</label>
+            <input class="form-input" type="password" name="contra2" id="contra2" placeholder="repetir contraseña">
+            <a class="log" href="log-in.html">Ya tienes cuenta</a>
+        <div class="div-button">
+            <button class="form-button">Registrarse</button>
+        </div>
     </form>
 </body>
 </html>

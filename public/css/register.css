@@ -1,42 +1,61 @@
 * {
-    background-color: #E3F2FD;
     font-family: ChakraPetch;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    margin-bottom: 20px;
+body {
+    background-color: #E3F2FD;
 }
 
-form {
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-content {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     border: #2196F3 solid 5px;
     border-radius: 20px;
     padding: 20px;
+    justify-self: center;
 }
 
-form input {
+.form-input {
     height: 25px;
-    width: 50%;
     border-radius: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
 }
 
-form label {
-    font-size: 15px
+.form-label {
+    font-size: 15px;
 }
 
-button {
+.log {
+    text-decoration: none;
+    width: fit-content;
+    color: #2196F3;
+}
+
+.log:hover {
+    text-decoration: underline;
+}
+
+.div-button {
+    text-align: center;
+}
+
+.form-button {
     background-color: #64B5F6;
     margin-top: 20px;
-    padding: 10px;
     border-radius: 20px;
-    width: 50%;
+    padding: 25px 20px;
+
 }
 
-button:hover {
+.form-button:hover {
     background-color: #2196F3;
 }
