@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iniciar sesión</title>
-</head>
-<body>
-    <form action="">
-        <label for="user-correo">Ingrese su correo</label>
-        <input type="email">
-        <label for="user-pass">Ingrese su contraseña</label>
-        <input type="password">
-        <a href="#">Recuperar contraseña</a>
-        <a href="register.html">Crear cuenta</a>
+    <link rel="stylesheet" href="../public/css/log-in.css" />
+  </head>
+  <body>
+    <form class="form-content" action="">
+      <h1 class="titulo">Iniciar sesión</h1>
+      <div class="form-input">
+        <label for="user-correo" class="form-label">Ingrese su correo</label>
+        <input type="email" class="form-input" />
+        <label for="user-pass" class="form-label">Ingrese su contraseña</label>
+        <input type="password" class="form-input" />
+      </div>
+      <a href="#" class="links">Recuperar contraseña</a>
+      <a href="register.html" class="links">Crear cuenta</a>
+      <button class="form-button">Iniciar sesión</button>
     </form>
-</body>
+  </body>
 </html>

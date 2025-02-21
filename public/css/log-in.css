@@ -1,0 +1,36 @@
+* {
+    font-family: ChakraPetch;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E3F2FD;
+}
+
+.form-content {
+    width: fit-content;
+    background: rgb(255, 255, 255);
+}
+
+.titulo {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.form-label {
+    font-size: 15px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button {
+    background-color: #64B5F6;
+}
+
+.form-button:hover {
+    background-color: #2196F3;
+}
