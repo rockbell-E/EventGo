@@ -21,6 +21,7 @@ body {
     border-radius: 20px;
     padding: 20px;
     justify-self: center;
+    margin-top: 50px;
 }
 
 .form-input {
