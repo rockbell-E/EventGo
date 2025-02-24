@@ -41,4 +41,12 @@ img {
     margin: auto;
     text-decoration: none;
     color: #2196F3;
+    background: #000000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-options:hover {
+    background: #817878;
 }

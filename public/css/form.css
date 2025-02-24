@@ -6,10 +6,12 @@
 
 body {
     background-color: #E3F2FD;
+    background: linear-gradient(#97eaf8 #22cccc);
 }
 
 .title {
     margin-bottom: 20px;
+    padding: 0 70px;
     text-align: center;
 }
 
