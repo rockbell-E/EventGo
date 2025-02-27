@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ChakraPetch;
+}
+
+.titulo {
+    background: red;
+    font-size: 1.1em;
+    
+}
+
+.informacion {
+    font-size: 1em;
+    margin: 20px 0;
+    padding: 15px 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #292727;
+}

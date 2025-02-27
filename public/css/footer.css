@@ -4,6 +4,10 @@
 }
 
 
+.pie {
+    background: linear-gradient(red, purple);
+}
+
 .links {
     text-decoration: none;
     color: #2196F3;
