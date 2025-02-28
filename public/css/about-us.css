@@ -10,10 +10,18 @@
     
 }
 
-.informacion {
+.parrafo {
     font-size: 1em;
     margin: 20px 0;
     padding: 15px 10px;
     border-radius: 25px;
     box-shadow: 0 0 20px #292727;
+    display: flex;
+}
+
+.parrafo p {
+    text-align: center;
+}
+    .parrafo img {
+    width: 35%;
 }
