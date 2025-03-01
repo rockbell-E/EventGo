@@ -1,20 +1,61 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: ChakraPetch;
+    box-sizing: border-box;
 }
 
-
 .pie {
-    background: linear-gradient(red, purple);
+    display: flex;
+    background: rgb(0, 174, 255);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+}
+
+.pie h3 {
+    padding: 5px;
+    font-size: 1.2em;
 }
 
 .links {
     text-decoration: none;
-    color: #2196F3;
+    color: #ffffff;
     margin-bottom: 10px;
+}
+
+.info {
+    margin: 20px 0;
+}
+
+.info ul {
+    padding: 6px;
+    list-style: none;
 }
 
 .links:hover {
     color: #004f8f;
 }
 
+form h3 {
+    letter-spacing: 2px;
+}
+
+.newsletter-input {
+    margin-bottom: 10px;
+}
+
+.newsletter-input input {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.newsletter-button {
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background: rgb(0, 174, 255);
+}
