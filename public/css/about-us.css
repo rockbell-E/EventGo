@@ -5,9 +5,11 @@
 }
 
 .titulo {
-    background: red;
     font-size: 1.1em;
-    
+}
+
+.titulo h1 {
+    text-align: center;
 }
 
 .parrafo {

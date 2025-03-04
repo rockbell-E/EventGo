@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ChakraPetch;
+}
+
+.foto-inicio {
+    background: url("/img/fachada.webp");
+    width: 100%;
+    height: 100vh;
+}
+
+.texto-inicio {
+    background-color: #fff;
+    width: fit-content;
+    opacity: 0.3;
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.texto-inicio h2, p {
+    font-size: 1.5em;
+}
+.texto-inicio h2 {
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
