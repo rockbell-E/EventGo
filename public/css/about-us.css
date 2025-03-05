@@ -10,11 +10,13 @@
 
 .titulo h1 {
     text-align: center;
+    font-size: 3em;
+    margin: 0.5em;
 }
 
 .parrafo {
     font-size: 1em;
-    margin: 20px 0;
+    margin: 30px 50px;
     padding: 15px 10px;
     border-radius: 25px;
     box-shadow: 0 0 20px #292727;
@@ -24,6 +26,17 @@
 .parrafo p {
     text-align: center;
 }
-    .parrafo img {
-    width: 35%;
+
+.parrafo img {
+    width: 25em;
+}
+
+.foto2 {
+    width: 300px !important;
+}
+
+.informacion {
+    font-size: 1.6em;
+    align-content: center;
+    margin: 0 20px;
 }
