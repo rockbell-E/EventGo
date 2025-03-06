@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrarse</title>
+    <title>Registrate en eventGo</title>
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -14,7 +14,7 @@
     <%- include("partials/header") %>
     
     <form class="form-content" action="" method="post">
-        <h2 class="title">Formulario de registro</h2>
+        <h2 class="title">Crea una cuenta</h2>
         <label class="form-label" for="nombre">Ingrese su nombre</label>
         <input class="form-input" type="text" name="nombre" id="nombre" placeholder="Rocio Belen">
         <label class="form-label" for="apellido">Ingrese su apellido</label>
@@ -27,10 +27,10 @@
         <input class="form-input" type="password" name="contra" id="contra" placeholder="contraseña">
         <label class="form-label" for="contra2">Confirme su contraseña</label>
         <input class="form-input" type="password" name="contra2" id="contra2" placeholder="repetir contraseña">
-        <a class="log" href="/iniciar-sesion">Ya tienes cuenta</a>
         <div class="div-button">
             <button class="form-button">Registrarse</button>
         </div>
+        <a class="log" href="/iniciar-sesion">Ya tienes cuenta</a>
     </form>
     
     <%- include("partials/footer") %>
