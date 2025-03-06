@@ -9,6 +9,10 @@ body {
     background: linear-gradient(#97eaf8 #22cccc);
 }
 
+.content {
+    height: 74.5vh;
+    align-content: center;
+}
 
 .title {
     margin-bottom: 20px;
@@ -24,7 +28,6 @@ body {
     border-radius: 20px;
     padding: 20px;
     justify-self: center;
-    margin-top: 50px;
 }
 
 .form-input {

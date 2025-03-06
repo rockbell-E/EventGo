@@ -13,18 +13,20 @@
 
     <%- include("partials/header") %>
 
-    <form class="form-content" action="">
+    <div class="content">
+      <form class="form-content" action="">
         <h2 class="title">Recuperar contraseña</h2>
         <label class="form-label" for="correo">Ingrese su correo</label>
         <input
-          class="form-input"
-          type="email"
-          placeholder="correo@correo.com"
+        class="form-input"
+        type="email"
+        placeholder="correo@correo.com"
         />
         <button class="form-button">Recuperar contraseña</button>
         <a href="/iniciar-sesion" class="log">Ya tienes cuenta</a>
         <a href="/registrarse" class="log">No tiene cuenta</a>
-    </form>
+      </form>
+    </div>
 
     <%- include("partials/footer") %>
   </body>
