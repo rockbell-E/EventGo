@@ -8,20 +8,25 @@
     <link rel="stylesheet" href="/fonts/font.css" />
     <link rel="stylesheet" href="/css/header.css" type="text/css" />
     <link rel="stylesheet" href="/css/footer.css" type="text/css" />
+    <script type="text/javascript" src="/js/log-in.js"></script>
   </head>
   <body>
-
     <%- include("partials/header.ejs") %>
-    <div class="content">
 
-      <form class="form-content" action="">
+    <div class="content">
+      <form class="form-content" id="formLogIn" action="">
+
         <h2 class="title">Iniciar sesión</h2>
-        <label for="user-correo" class="form-label">Ingrese su correo</label>
-        <input type="email" class="form-input" placeholder="correo@correo.cl" />
-        <label for="user-pass" class="form-label">Ingrese su contraseña</label>
-        <input type="password" class="form-input" placeholder="contraseña" />
+
+        <label for="usercorreo" class="form-label">Ingrese su correo</label>
+        <input type="email" id="usercorreo" name="usercorreo" class="form-input" placeholder="correo@correo.cl" />
+
+        <label for="userpass" class="form-label">Ingrese su contraseña</label>
+        <input type="password" id="userpass" name="userpass" class="form-input" placeholder="contraseña" />
+        <div id="msgFallo"></div>
+
         <div class="div-button">
-          <button class="form-button">Iniciar sesión</button>
+          <input type="submit" value="Iniciar sesión" class="form-button">
         </div>
         <a href="/recuperar" class="log">Recuperar contraseña</a>
         <a href="/registrarse" class="log">Crear cuenta</a>
@@ -29,6 +34,5 @@
     </div>
 
     <%- include("partials/footer.ejs") %>
-    
   </body>
 </html>
