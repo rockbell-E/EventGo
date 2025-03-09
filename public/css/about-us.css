@@ -29,10 +29,15 @@
 
 .parrafo img {
     width: 25em;
+    border-radius: 20px;
+}
+
+.foto1 {
+    width: 18em !important;
 }
 
 .foto2 {
-    width: 300px !important;
+    width: 18em !important;
 }
 
 .informacion {
