@@ -28,6 +28,5 @@ app.get("/recuperar", (req, res) => {
     res.render("recovery");
 });
 
-
 const PORT = 3000;
 app.listen(PORT, () => console.log(`Servidor corriendo en http://localhost:${PORT}`));
